@@ -40,7 +40,7 @@ body {
     text-align:left;
     position:absolute;
     top:30%;
-    left:9%;
+    left:10%;
     transform:translate(-50%,-50%);
     color: black;
   }.hero-text button{
@@ -56,4 +56,55 @@ body {
   .hero-text button:hover{
     background-color: #555;
     color:white;
+  }.hero-image1{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.5)), url(Collage.jpg);
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  .hero-text1{
+    text-align:left;
+    position:absolute;
+    top: 30%;
+    left:35%;
+    transform:translate(-50%,-50%);
+    color: black;
+  }.hero-text1 button{
+    border:none;
+    outline:0;
+    display:inline-block;
+    padding:10px 25px;
+    color: rgb(255, 255, 255);
+    background-color: #c8c9c7b9;
+    text-align: center;
+    cursor:pointer;
+  }
+  .hero-text1 button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(136, 136, 136);
+  }
+  .hero-text2{
+    text-align:right;
+    position:absolute;
+    top: 70%;
+    right:35%;
+    transform:translate(50%,-50%);
+    color:black;
+  }
+  .hero-text1 button{
+    border:none;
+    outline:0;
+    display:inline-block;
+    padding:10px 25px;
+    color: rgb(255, 255, 255);
+    background-color:#c8c9c7b9;
+    text-align:center;
+    cursor:pointer;
+  }
+  .hero-text1 button:hover{
+    background-color: rgb(255,255,255);
+    color: rgb(136, 136, 136);
   }
