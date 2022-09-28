@@ -57,7 +57,7 @@ body {
     background-color: #555;
     color:white;
   }.hero-image1{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.5)), url(Collage.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.658)), url(Collage.jpg);
     height:100%;
     width: 100%;
     background-position: center;
@@ -94,17 +94,17 @@ body {
     transform:translate(50%,-50%);
     color:black;
   }
-  .hero-text1 button{
+  .hero-text2 button{
     border:none;
     outline:0;
     display:inline-block;
     padding:10px 25px;
     color: rgb(255, 255, 255);
-    background-color:#c8c9c7b9;
-    text-align:center;
+    background-color: #c8c9c7b9;
+    text-align: center;
     cursor:pointer;
   }
-  .hero-text1 button:hover{
+  .hero-text2 button:hover{
     background-color: rgb(255,255,255);
     color: rgb(136, 136, 136);
   }
