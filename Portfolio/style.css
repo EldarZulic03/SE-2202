@@ -108,3 +108,49 @@ body {
     background-color: rgb(255,255,255);
     color: rgb(136, 136, 136);
   }
+  .hero-image2{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(20thcb.jpg);
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  .hero-text3{
+    text-align:left;
+    position:absolute;
+    top:30%;
+    left:10%;
+    transform:translate(-50%,-50%);
+    color: black;}
+  .hero-text3 button{
+      border:none;
+      outline:0;
+      display:inline-block;
+      padding:10px 25px;
+      color: rgb(255, 255, 255);
+      background-color: #c8c9c7b9;
+      text-align: center;
+      cursor:pointer;
+    }
+  .hero-text3 button:hover{
+      background-color: rgb(255,255,255);
+      color: rgb(136, 136, 136);
+    }
+    .hero-image3{
+      background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(evepanel.png);
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  .hero-text3{
+    text-align:center;
+    position:absolute;
+    top:30%;
+    left:10%;
+    transform:translate(-50%,-50%);
+    color: black;}
